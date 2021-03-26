@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "_id": "1",
     "name": "AB",
     "description": "Hotel AB is well-known for its exquisite living areas and condos with splendour infrastructure",
     "phone": "(111) 111-1111",
@@ -8,7 +8,7 @@
     "address": "233 Bay State Rd Boston MA 02215"
   },
   {
-    "id": "2",
+    "_id": "2",
     "name": "XY",
     "description": "Hotel XY, appreciated for its authentic food and countryside savouries",
     "phone": "(222) 222-2222",
@@ -16,7 +16,7 @@
     "address": "220 Pawtucket St, Lowell, MA 01854"
   },
   {
-    "id": "3",
+    "_id": "3",
     "name": "PQ",
     "description": "Hotel PQ, a perfect resting place for holiday plans",
     "phone": "(333) 333-3333",
@@ -24,7 +24,7 @@
     "address": "85 South Prospect Street Burlington VT 05405"
   },
   {
-    "id": "4",
+    "_id": "4",
     "name": "CD",
     "description": "Hotel CD, beautiful combination of traditional grandeur and modern facilities",
     "phone": "(444) 444-4444",
@@ -32,7 +32,7 @@
     "address": "5 Upper College Rd Kingston RI 02881"
   },
   {
-    "id": "5",
+    "_id": "5",
     "name": "ST",
     "description": "ST hotel offers international and national cuisine with splendid panoramic views",
     "phone": "(555) 555-5555",
