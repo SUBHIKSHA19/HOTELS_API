@@ -1,42 +1,47 @@
 [
   {
-    "_id": "1",
+    "_id": "605dd0e53b5fd20adc967dc7",
     "name": "AB",
     "description": "Hotel AB is well-known for its exquisite living areas and condos with splendour infrastructure",
     "phone": "(111) 111-1111",
     "email": "details@AB.com",
-    "address": "233 Bay State Rd Boston MA 02215"
+    "address": "233 Bay State Rd Boston MA 02215",
+    "rating": "8"
   },
   {
-    "_id": "2",
+    "_id": "605dd0e53b5fd20adc967dc8",
     "name": "XY",
     "description": "Hotel XY, appreciated for its authentic food and countryside savouries",
     "phone": "(222) 222-2222",
     "email": "details@XY.com",
-    "address": "220 Pawtucket St, Lowell, MA 01854"
+    "address": "220 Pawtucket St, Lowell, MA 01854",
+    "rating": "7"
   },
   {
-    "_id": "3",
+    "_id": "605dd0e53b5fd20adc967dc9",
     "name": "PQ",
     "description": "Hotel PQ, a perfect resting place for holiday plans",
     "phone": "(333) 333-3333",
     "email": "details@PQ.com",
-    "address": "85 South Prospect Street Burlington VT 05405"
+    "address": "85 South Prospect Street Burlington VT 05405",
+    "rating": "4"
   },
   {
-    "_id": "4",
+    "_id": "605dd0e53b5fd20adc967dca",
     "name": "CD",
     "description": "Hotel CD, beautiful combination of traditional grandeur and modern facilities",
     "phone": "(444) 444-4444",
     "email": "details@CD.com",
-    "address": "5 Upper College Rd Kingston RI 02881"
+    "address": "5 Upper College Rd Kingston RI 02881",
+    "rating": "7"
   },
   {
-    "_id": "5",
+    "_id": "605dd0e53b5fd20adc967dcb",
     "name": "ST",
     "description": "ST hotel offers international and national cuisine with splendid panoramic views",
     "phone": "(555) 555-5555",
     "email": "details@ST.com",
-    "address": "115 pavon St, bangalore, India"
+    "address": "115 pavon St, bangalore, India",
+    "rating": "9"
   }
 ]

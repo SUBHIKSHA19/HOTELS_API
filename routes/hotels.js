@@ -7,14 +7,13 @@ const {
   deleteHotel,
 } = require('../controllers/hotels');
 
+const Hotel = require('../models/Hotel');
+const advancedResults = require('../middleware/advancedResults');
+
 const router = express.Router();
 
-router.route('/').get(getBootcamps).post(createBootcamp);
+router.route('/').get(advancedResults(Hotel), getHotels).post(createHotel);
 
-router
-  .route('/:id')
-  .get(getBootcamp)
-  .put(updateBootcamp)
-  .delete(deleteBootcamp);
+router.route('/:id').get(getHotel).put(updateHotel).delete(deleteHotel);
 
 module.exports = router;

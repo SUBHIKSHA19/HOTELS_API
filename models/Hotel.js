@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-//const slugify = require('slugify');
+const slugify = require('slugify');
 //const geocoder = require('../utils/geocoder');
 
 const HotelSchema = new mongoose.Schema(
@@ -25,7 +25,6 @@ const HotelSchema = new mongoose.Schema(
       type: String,
       match: [
         /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-        // /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
         'Please add a valid email',
       ],
     },
@@ -33,29 +32,13 @@ const HotelSchema = new mongoose.Schema(
       type: String,
       required: [true, 'Please add an address'],
     },
-    // location: {
-    //   //GeoJSON point
-    //   type: {
-    //     type: String,
-    //     enum: ['Point'],
-    //     //required: true,
-    //   },
-    //   coordinates: {
-    //     type: [Number],
-    //     index: '2dsphere',
-    //     //required: true,
-    //   },
-    //   formattedAddress: String,
-    //   street: String,
-    //   city: String,
-    //   state: String,
-    //   zipcode: String,
-    //   country: String,
-    // },
-    averageRating: {
-      type: Number,
-      min: [1, 'Rating must be at least 1'],
-      max: [10, 'Rating must can not be more than 10'],
+    rating: {
+      type: String,
+      required: [true, 'Please add a rating between 1 & 10'],
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
     },
   },
   {
